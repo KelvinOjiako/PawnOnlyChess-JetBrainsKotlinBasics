@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PawnsOnlyChessTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-08-27T20:36:29" hostname="RUMPELSTILTSKIN" time="2.443">
+  <properties/>
+  <testcase name="start" classname="PawnsOnlyChessTest" time="2.443">
+    <failure message="java.lang.AssertionError: Wrong answer in test #3&#10;&#10;Wrong chessboard printout after 1 square move.&#10;&#10;Please find below the output of your program during this failed test.&#10;Note that the '&gt;' character indicates the beginning of the input line.&#10;&#10;---&#10;&#10;Pawns-Only Chess&#10;First Player's name:&#10;&gt; John&#10;Second Player's name:&#10;&gt; Amelia&#10;  +---+---+---+---+---+---+---+---+&#10;8 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;7 | B | B | B | B | B | B | B | B |&#10;  +---+---+---+---+---+---+---+---+&#10;6 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;5 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;4 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;3 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;2 | W | W | W | W | W | W | W | W |&#10;  +---+---+---+---+---+---+---+---+&#10;1 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;    a   b   c   d   e   f   g   h&#10;&#10;John's turn:&#10;&gt; e2e2&#10;Invalid Input&#10;John's turn:&#10;&gt; d2d1&#10;Invalid Input&#10;John's turn:&#10;&gt; c2c5&#10;Invalid Input&#10;John's turn:&#10;&gt; a2a6&#10;Invalid Input&#10;John's turn:&#10;&gt; g2g7&#10;Invalid Input&#10;John's turn:&#10;&gt; a2a8&#10;Invalid Input&#10;John's turn:&#10;&gt; b3b3&#10;No white pawn at b3&#10;John's turn:&#10;&gt; c4c4&#10;No white pawn at c4&#10;John's turn:&#10;&gt; f2f1&#10;Invalid Input&#10;John's turn:&#10;&gt; a2b3&#10;Invalid Input&#10;John's turn:&#10;&gt; b2c3&#10;Invalid Input&#10;John's turn:&#10;&gt; c2d3&#10;Invalid Input&#10;John's turn:&#10;&gt; d2e3&#10;Invalid Input&#10;John's turn:&#10;&gt; e2f3&#10;Invalid Input&#10;John's turn:&#10;&gt; f2g3&#10;Invalid Input&#10;John's turn:&#10;&gt; g2h3&#10;Invalid Input&#10;John's turn:&#10;&gt; h2g3&#10;Invalid Input&#10;John's turn:&#10;&gt; e2e3&#10;  +---+---+---+---+---+---+---+---+&#10;8 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;7 | B | B | B | B | B | B | B | B |&#10;  +---+---+---+---+---+---+---+---+&#10;6 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;5 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;4 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;3 |   |   |   |   | W |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;2 | W | W | W | W |   | W | W | W |&#10;  +---+---+---+---+---+---+---+---+&#10;1 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;    a   b   c   d   e   f   g   h&#10;&#10;Amelia's turn:&#10;&gt; a7b6&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; b7c6&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; c7d6&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; d7e6&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; e7f6&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; f7g6&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; g7h6&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; h7g6&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; e7e7&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; b7b8&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; e7e4&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; h7h3&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; g7g2&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; a7a1&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; a6a6&#10;No black pawn at a6&#10;Amelia's turn:&#10;&gt; f5f5&#10;No black pawn at f5&#10;Amelia's turn:&#10;&gt; d7d8&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; e7e6&#10;  +---+---+---+---+---+---+---+---+&#10;8 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;7 | B | B | B | B |   | B | B | B |&#10;  +---+---+---+---+---+---+---+---+&#10;6 |   |   |   |   | B |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;5 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;4 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;3 |   |   |   |   | W |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;2 | W | W | W | W |   | W | W | W |&#10;  +---+---+---+---+---+---+---+---+&#10;1 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;    a   b   c   d   e   f   g   h&#10;&#10;John's turn:&#10;&gt; e3e2&#10;Invalid Input&#10;John's turn:&#10;&gt; e3e1&#10;Invalid Input&#10;John's turn:&#10;&gt; e3e3&#10;Invalid Input&#10;John's turn:&#10;&gt; h2h3&#10;  +---+---+---+---+---+---+---+---+&#10;8 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;7 | B | B | B | B |   | B | B | B |&#10;  +---+---+---+---+---+---+---+---+&#10;6 |   |   |   |   | B |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;5 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;4 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;3 |   |   |   |   | W |   |   | W |&#10;  +---+---+---+---+---+---+---+---+&#10;2 | W | W | W | W |   | W | W |   |&#10;  +---+---+---+---+---+---+---+---+&#10;1 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;    a   b   c   d   e   f   g   h&#10;&#10;Amelia's turn:&#10;&gt; e6e6&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; e6e7&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; e6e8&#10;Invalid Input&#10;Amelia's turn:&#10;&gt; h7h5&#10;  +---+---+---+---+---+---+---+---+&#10;8 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;7 | B | B | B | B |   | B | B |   |&#10;  +---+---+---+---+---+---+---+---+&#10;6 |   |   |   |   | B |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;5 |   |   |   |   |   |   |   | B |&#10;  +---+---+---+---+---+---+---+---+&#10;4 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;3 |   |   |   |   | W |   |   | W |&#10;  +---+---+---+---+---+---+---+---+&#10;2 | W | W | W | W |   | W | W |   |&#10;  +---+---+---+---+---+---+---+---+&#10;1 |   |   |   |   |   |   |   |   |&#10;  +---+---+---+---+---+---+---+---+&#10;    a   b   c   d   e   f   g   h&#10;&#10;John's turn:&#10;&gt; h3h4&#10;Invalid Input&#10;John's turn:" type="java.lang.AssertionError">java.lang.AssertionError: Wrong answer in test #3
+
+Wrong chessboard printout after 1 square move.
+
+Please find below the output of your program during this failed test.
+Note that the '&gt;' character indicates the beginning of the input line.
+
+---
+
+Pawns-Only Chess
+First Player's name:
+&gt; John
+Second Player's name:
+&gt; Amelia
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 | B | B | B | B | B | B | B | B |
+  +---+---+---+---+---+---+---+---+
+6 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+2 | W | W | W | W | W | W | W | W |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+John's turn:
+&gt; e2e2
+Invalid Input
+John's turn:
+&gt; d2d1
+Invalid Input
+John's turn:
+&gt; c2c5
+Invalid Input
+John's turn:
+&gt; a2a6
+Invalid Input
+John's turn:
+&gt; g2g7
+Invalid Input
+John's turn:
+&gt; a2a8
+Invalid Input
+John's turn:
+&gt; b3b3
+No white pawn at b3
+John's turn:
+&gt; c4c4
+No white pawn at c4
+John's turn:
+&gt; f2f1
+Invalid Input
+John's turn:
+&gt; a2b3
+Invalid Input
+John's turn:
+&gt; b2c3
+Invalid Input
+John's turn:
+&gt; c2d3
+Invalid Input
+John's turn:
+&gt; d2e3
+Invalid Input
+John's turn:
+&gt; e2f3
+Invalid Input
+John's turn:
+&gt; f2g3
+Invalid Input
+John's turn:
+&gt; g2h3
+Invalid Input
+John's turn:
+&gt; h2g3
+Invalid Input
+John's turn:
+&gt; e2e3
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 | B | B | B | B | B | B | B | B |
+  +---+---+---+---+---+---+---+---+
+6 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 |   |   |   |   | W |   |   |   |
+  +---+---+---+---+---+---+---+---+
+2 | W | W | W | W |   | W | W | W |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+Amelia's turn:
+&gt; a7b6
+Invalid Input
+Amelia's turn:
+&gt; b7c6
+Invalid Input
+Amelia's turn:
+&gt; c7d6
+Invalid Input
+Amelia's turn:
+&gt; d7e6
+Invalid Input
+Amelia's turn:
+&gt; e7f6
+Invalid Input
+Amelia's turn:
+&gt; f7g6
+Invalid Input
+Amelia's turn:
+&gt; g7h6
+Invalid Input
+Amelia's turn:
+&gt; h7g6
+Invalid Input
+Amelia's turn:
+&gt; e7e7
+Invalid Input
+Amelia's turn:
+&gt; b7b8
+Invalid Input
+Amelia's turn:
+&gt; e7e4
+Invalid Input
+Amelia's turn:
+&gt; h7h3
+Invalid Input
+Amelia's turn:
+&gt; g7g2
+Invalid Input
+Amelia's turn:
+&gt; a7a1
+Invalid Input
+Amelia's turn:
+&gt; a6a6
+No black pawn at a6
+Amelia's turn:
+&gt; f5f5
+No black pawn at f5
+Amelia's turn:
+&gt; d7d8
+Invalid Input
+Amelia's turn:
+&gt; e7e6
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 | B | B | B | B |   | B | B | B |
+  +---+---+---+---+---+---+---+---+
+6 |   |   |   |   | B |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 |   |   |   |   | W |   |   |   |
+  +---+---+---+---+---+---+---+---+
+2 | W | W | W | W |   | W | W | W |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+John's turn:
+&gt; e3e2
+Invalid Input
+John's turn:
+&gt; e3e1
+Invalid Input
+John's turn:
+&gt; e3e3
+Invalid Input
+John's turn:
+&gt; h2h3
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 | B | B | B | B |   | B | B | B |
+  +---+---+---+---+---+---+---+---+
+6 |   |   |   |   | B |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 |   |   |   |   | W |   |   | W |
+  +---+---+---+---+---+---+---+---+
+2 | W | W | W | W |   | W | W |   |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+Amelia's turn:
+&gt; e6e6
+Invalid Input
+Amelia's turn:
+&gt; e6e7
+Invalid Input
+Amelia's turn:
+&gt; e6e8
+Invalid Input
+Amelia's turn:
+&gt; h7h5
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 | B | B | B | B |   | B | B |   |
+  +---+---+---+---+---+---+---+---+
+6 |   |   |   |   | B |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   | B |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 |   |   |   |   | W |   |   | W |
+  +---+---+---+---+---+---+---+---+
+2 | W | W | W | W |   | W | W |   |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+John's turn:
+&gt; h3h4
+Invalid Input
+John's turn:
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.hyperskill.hstest.stage.StageTest.start(StageTest.java:155)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Pawns-Only Chess
+First Player's name:
+> John
+Second Player's name:
+> Amelia
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 | B | B | B | B | B | B | B | B |
+  +---+---+---+---+---+---+---+---+
+6 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+2 | W | W | W | W | W | W | W | W |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+John's turn:
+> a2a3
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 | B | B | B | B | B | B | B | B |
+  +---+---+---+---+---+---+---+---+
+6 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 | W |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+2 |   | W | W | W | W | W | W | W |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+Amelia's turn:
+> a7a6
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 |   | B | B | B | B | B | B | B |
+  +---+---+---+---+---+---+---+---+
+6 | B |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 | W |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+2 |   | W | W | W | W | W | W | W |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+John's turn:
+> e2e4
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 |   | B | B | B | B | B | B | B |
+  +---+---+---+---+---+---+---+---+
+6 | B |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   | W |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 | W |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+2 |   | W | W | W |   | W | W | W |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+Amelia's turn:
+> e7e5
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 |   | B | B | B |   | B | B | B |
+  +---+---+---+---+---+---+---+---+
+6 | B |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   | B |   |   |   |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   | W |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 | W |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+2 |   | W | W | W |   | W | W | W |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+John's turn:
+> exit
+Bye!
+?[1;31m
+Start test 2?[0m
+Pawns-Only Chess
+First Player's name:
+> John
+Second Player's name:
+> Amelia
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 | B | B | B | B | B | B | B | B |
+  +---+---+---+---+---+---+---+---+
+6 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+2 | W | W | W | W | W | W | W | W |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+John's turn:
+> e2d3
+Invalid Input
+John's turn:
+> e2f3
+Invalid Input
+John's turn:
+> e3e4
+No white pawn at e3
+John's turn:
+> d7d8
+No white pawn at d7
+John's turn:
+> e2e3
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 | B | B | B | B | B | B | B | B |
+  +---+---+---+---+---+---+---+---+
+6 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 |   |   |   |   | W |   |   |   |
+  +---+---+---+---+---+---+---+---+
+2 | W | W | W | W |   | W | W | W |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+Amelia's turn:
+> b6b5
+No black pawn at b6
+Amelia's turn:
+> a2a1
+No black pawn at a2
+Amelia's turn:
+> e7e6
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 | B | B | B | B |   | B | B | B |
+  +---+---+---+---+---+---+---+---+
+6 |   |   |   |   | B |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 |   |   |   |   | W |   |   |   |
+  +---+---+---+---+---+---+---+---+
+2 | W | W | W | W |   | W | W | W |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+John's turn:
+> e3e5
+Invalid Input
+John's turn:
+> h2h3
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 | B | B | B | B |   | B | B | B |
+  +---+---+---+---+---+---+---+---+
+6 |   |   |   |   | B |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 |   |   |   |   | W |   |   | W |
+  +---+---+---+---+---+---+---+---+
+2 | W | W | W | W |   | W | W |   |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+Amelia's turn:
+> e6e4
+Invalid Input
+Amelia's turn:
+> exit
+Bye!
+?[1;31m
+Start test 3?[0m
+Pawns-Only Chess
+First Player's name:
+> John
+Second Player's name:
+> Amelia
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 | B | B | B | B | B | B | B | B |
+  +---+---+---+---+---+---+---+---+
+6 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+2 | W | W | W | W | W | W | W | W |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+John's turn:
+> e2e2
+Invalid Input
+John's turn:
+> d2d1
+Invalid Input
+John's turn:
+> c2c5
+Invalid Input
+John's turn:
+> a2a6
+Invalid Input
+John's turn:
+> g2g7
+Invalid Input
+John's turn:
+> a2a8
+Invalid Input
+John's turn:
+> b3b3
+No white pawn at b3
+John's turn:
+> c4c4
+No white pawn at c4
+John's turn:
+> f2f1
+Invalid Input
+John's turn:
+> a2b3
+Invalid Input
+John's turn:
+> b2c3
+Invalid Input
+John's turn:
+> c2d3
+Invalid Input
+John's turn:
+> d2e3
+Invalid Input
+John's turn:
+> e2f3
+Invalid Input
+John's turn:
+> f2g3
+Invalid Input
+John's turn:
+> g2h3
+Invalid Input
+John's turn:
+> h2g3
+Invalid Input
+John's turn:
+> e2e3
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 | B | B | B | B | B | B | B | B |
+  +---+---+---+---+---+---+---+---+
+6 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 |   |   |   |   | W |   |   |   |
+  +---+---+---+---+---+---+---+---+
+2 | W | W | W | W |   | W | W | W |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+Amelia's turn:
+> a7b6
+Invalid Input
+Amelia's turn:
+> b7c6
+Invalid Input
+Amelia's turn:
+> c7d6
+Invalid Input
+Amelia's turn:
+> d7e6
+Invalid Input
+Amelia's turn:
+> e7f6
+Invalid Input
+Amelia's turn:
+> f7g6
+Invalid Input
+Amelia's turn:
+> g7h6
+Invalid Input
+Amelia's turn:
+> h7g6
+Invalid Input
+Amelia's turn:
+> e7e7
+Invalid Input
+Amelia's turn:
+> b7b8
+Invalid Input
+Amelia's turn:
+> e7e4
+Invalid Input
+Amelia's turn:
+> h7h3
+Invalid Input
+Amelia's turn:
+> g7g2
+Invalid Input
+Amelia's turn:
+> a7a1
+Invalid Input
+Amelia's turn:
+> a6a6
+No black pawn at a6
+Amelia's turn:
+> f5f5
+No black pawn at f5
+Amelia's turn:
+> d7d8
+Invalid Input
+Amelia's turn:
+> e7e6
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 | B | B | B | B |   | B | B | B |
+  +---+---+---+---+---+---+---+---+
+6 |   |   |   |   | B |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 |   |   |   |   | W |   |   |   |
+  +---+---+---+---+---+---+---+---+
+2 | W | W | W | W |   | W | W | W |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+John's turn:
+> e3e2
+Invalid Input
+John's turn:
+> e3e1
+Invalid Input
+John's turn:
+> e3e3
+Invalid Input
+John's turn:
+> h2h3
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 | B | B | B | B |   | B | B | B |
+  +---+---+---+---+---+---+---+---+
+6 |   |   |   |   | B |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 |   |   |   |   | W |   |   | W |
+  +---+---+---+---+---+---+---+---+
+2 | W | W | W | W |   | W | W |   |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+Amelia's turn:
+> e6e6
+Invalid Input
+Amelia's turn:
+> e6e7
+Invalid Input
+Amelia's turn:
+> e6e8
+Invalid Input
+Amelia's turn:
+> h7h5
+  +---+---+---+---+---+---+---+---+
+8 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+7 | B | B | B | B |   | B | B |   |
+  +---+---+---+---+---+---+---+---+
+6 |   |   |   |   | B |   |   |   |
+  +---+---+---+---+---+---+---+---+
+5 |   |   |   |   |   |   |   | B |
+  +---+---+---+---+---+---+---+---+
+4 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+3 |   |   |   |   | W |   |   | W |
+  +---+---+---+---+---+---+---+---+
+2 | W | W | W | W |   | W | W |   |
+  +---+---+---+---+---+---+---+---+
+1 |   |   |   |   |   |   |   |   |
+  +---+---+---+---+---+---+---+---+
+    a   b   c   d   e   f   g   h
+
+John's turn:
+> h3h4
+Invalid Input
+John's turn:
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
